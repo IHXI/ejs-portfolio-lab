@@ -11,14 +11,14 @@
 
     <% projects.forEach(function(item, index){%>
         <%if(projectId === item.id){%>
-           <div class="cards-container">
-            <p><strong>title:</strong><%=item.title%></p>
+           <div class="projects-container">
+            <p><strong>title: </strong><%=item.title%></p>
             <img src="<%=item.image%>" alt="gfd">
-            <p><strong>description:</strong><%=item.description%></p>
-            <p><strong>technologies:</strong><%=item.technologies%></p>
-            <p><strong>features:</strong><%=item.features%></p>
-            <p><strong>status:</strong><%=item.status%></p>
-            <p><strong>reflection:</strong> <%=item.reflection%></p>
+            <p><strong>description: </strong><%=item.description%></p>
+            <p><strong>technologies: </strong><%=item.technologies%></p>
+            <p><strong>features: </strong><%=item.features%></p>
+            <p><strong>status: </strong><%=item.status%></p>
+            <p><strong>reflection: </strong> <%=item.reflection%></p>
             </div>
             <%}%>
 

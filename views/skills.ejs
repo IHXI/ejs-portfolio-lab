@@ -2,11 +2,11 @@
 <h1>skills</h1>
 
 <% skills.forEach(function(item, index){%>
-   
+   <div class="skills-container">
     <ul> 
-        <li><%=item.name%></li> 
+        <li>skill: <%=item.name%> <br> category: <%= item.category %> <br> level: <%=item.level  %> <br> Description: <%=item.description %></li> 
     </ul>
-   
+   </div>
 <%})%>
 
 </body>
