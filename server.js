@@ -52,7 +52,7 @@ const projects = [
   {
     id: 1,
     image: '/images/miniCheckers.png',
-    title: 'Game Project',
+    title: 'Mini Checkers',
     description: 'A browser-based game built with HTML, CSS, and JavaScript.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     features: [
