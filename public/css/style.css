@@ -1,0 +1,36 @@
+body {
+    background-color: #fffcf1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100dvw;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+ nav a {
+    background-color: #b3ddff;
+    border-radius: 10px;
+ }
+ a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 10px;
+ }
+
+ h1 a {
+    color: white
+ }
+
+ .cards-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #344966;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
+ }
+
+
+ 
